@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 h1 {
   font-size: 50px;
@@ -7,13 +8,26 @@ h1 {
 .komla {
   color: orange;
 }
-section{
-    display: flex;
+section {
+  display: flex;
 }
-.half{
-    width: 50%;
-    margin-left: 10%;
+.half {
+  width: 50%;
+  padding-left: 5%;
 }
-.half img{
-    width: 80%;
+.half img {
+  width: 80%;
+}
+.link-button {
+  background-image: linear-gradient(orange, orangered);
+  border-radius: 5px;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.top-image {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
