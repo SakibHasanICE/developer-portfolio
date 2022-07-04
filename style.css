@@ -1,6 +1,19 @@
-.komla{
-    color: orange;
-    
-
-
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+.komla {
+  color: orange;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 50%;
+    margin-left: 10%;
+}
+.half img{
+    width: 80%;
 }
