@@ -5,20 +5,17 @@ body {
 h1 {
   font-size: 50px;
 }
-.komla {
+h2 {
+  font-size: 40px;
+}
+.name {
   color: orange;
 }
-section {
+.flexible-container {
   display: flex;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
-.half {
-  width: 50%;
-  padding-left: 5%;
-}
-.half img {
-  width: 80%;
-}
+
 .link-button {
   background-image: linear-gradient(orange, orangered);
   border-radius: 5px;
@@ -32,11 +29,11 @@ section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
-.half-two-width {
+.half-width {
   width: 50%;
   padding-left: 5%;
 }
-.half-two-width img {
+.half-width img {
   width: 80%;
 }
 .dream-big {
@@ -44,6 +41,30 @@ section {
   background-repeat: no-repeat;
   background-position: right;
 }
-.paragraph-padding{
-    padding-right: 20%;
+.paragraph-padding {
+  padding-right: 20%;
+}
+.experience-class {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+#orange{
+    border-left: 7px solid orangered;
+}
+#blue{
+    border-left: 7px solid blue;
+}
+.footer{
+    text-align: center;
 }
